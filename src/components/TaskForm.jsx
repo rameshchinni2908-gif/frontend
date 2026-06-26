@@ -31,7 +31,7 @@ function TaskForm({ onAddTask }) {
                 onChange={(e) => setTitle(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && createTask()}
                 disabled={loading}
-                size="large"
+                size="small"
                 sx={{ flex: 1 }}
             />
             <Button
